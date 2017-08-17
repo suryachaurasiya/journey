@@ -3,15 +3,15 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="childProduct.ChildProductJourney"/>
+      <!-- <class name="childProduct.ChildProductJourney"/>
       <class name="proposalJourney.CignaProposal"/>
-      <class name="bikeProduct.TwowheelerProductJourney"/>
+      <class name="bikeProduct.TwowheelerProductJourney"/> -->
       <class name="healthProduct.HealthProductJourneyWithExcel"/>
-      <class name="travelProduct.TravelProductJourney"/>
+       <!-- <class name="travelProduct.TravelProductJourney"/>
       <class name="investmentProduct.InvestmentProductJourney"/>
       <class name="termProduct.TermProductJourney"/>
       <class name="pensionProduct.PensionProductJourney"/>
-      <class name="carProduct.CarProductJourney"/>
+      <class name="carProduct.CarProductJourney"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
