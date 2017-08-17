@@ -30,7 +30,7 @@ public class HealthProductJourneyWithExcel extends ExtentBaseClass {
 	public String workingDir;
 	
 	// Open Easypolicy Website
-	@Test(description = "Open Easypolicy Website for health Product Journey", priority = 1)
+	@Test(description ="Open Easypolicy Website for health Product Journey", priority = 1)
 	public void LaunchWebsite() throws Exception {
 
 		try {
