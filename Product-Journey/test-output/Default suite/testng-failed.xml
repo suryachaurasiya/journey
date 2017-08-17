@@ -6,7 +6,6 @@
       <class name="healthProduct.HealthProductJourneyWithExcel">
         <methods>
           <include name="QuotesBuyNow"/>
-          <include name="tearDown"/>
           <include name="getResult"/>
           <include name="suiteSetUp"/>
           <include name="suiteTearDown"/>

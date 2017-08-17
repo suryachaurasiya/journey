@@ -38,12 +38,11 @@ public class HealthProductJourneyWithExcel extends ExtentBaseClass {
 			driver.get("http://easypolicy.com/");
 			driver.manage().window().maximize();
 			//String title = driver.getTitle();
-			if (driver.getTitle().contains("Easypolicy")) {
+			if (driver.getTitle().contains("Easypolicy - #1 from Insurance Comparison to Claim Support")) {
 				test.pass(driver.getTitle() + " contain " + "Easypolicy");
 			}
 			else
 				test.log(Status.FAIL, driver.getTitle() + " doesn't contain " + "Easypolicy");
-				test.fail("details").addScreenCaptureFromPath("1.png");
 		} catch (Exception e) {
 			test.log(Status.ERROR, e.getMessage());
 		

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="13" passed="12">
+<testng-results skipped="0" failed="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59830" started-at="2017-08-17T09:33:47Z" finished-at="2017-08-17T09:34:47Z">
+  <suite name="Default suite" duration-ms="88324" started-at="2017-08-17T10:07:31Z" finished-at="2017-08-17T10:09:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59830" started-at="2017-08-17T09:33:47Z" finished-at="2017-08-17T09:34:47Z">
+    <test name="Default test" duration-ms="88324" started-at="2017-08-17T10:07:31Z" finished-at="2017-08-17T10:09:00Z">
       <class name="healthProduct.HealthProductJourneyWithExcel">
-        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="suiteSetUp" is-config="true" duration-ms="3830" started-at="2017-08-17T15:03:47Z" finished-at="2017-08-17T15:03:51Z">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="suiteSetUp" is-config="true" duration-ms="3764" started-at="2017-08-17T15:37:31Z" finished-at="2017-08-17T15:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method status="PASS" signature="LaunchWebsite()[pri:1, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="LaunchWebsite" duration-ms="7209" started-at="2017-08-17T15:03:51Z" description="Open Easypolicy Website for health Product Journey" finished-at="2017-08-17T15:03:58Z">
+        <test-method status="PASS" signature="LaunchWebsite()[pri:1, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="LaunchWebsite" duration-ms="7747" started-at="2017-08-17T15:37:35Z" description="Open Easypolicy Website for health Product Journey" finished-at="2017-08-17T15:37:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchWebsite -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="2" started-at="2017-08-17T15:03:58Z" finished-at="2017-08-17T15:03:58Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="2" started-at="2017-08-17T15:37:43Z" finished-at="2017-08-17T15:37:43Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="FillLoginDetails()[pri:2, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="FillLoginDetails" duration-ms="2726" started-at="2017-08-17T15:03:58Z" description="Click on Health product link " finished-at="2017-08-17T15:04:01Z">
+        <test-method status="PASS" signature="FillLoginDetails()[pri:2, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="FillLoginDetails" duration-ms="1653" started-at="2017-08-17T15:37:43Z" description="Click on Health product link " finished-at="2017-08-17T15:37:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillLoginDetails -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:04:01Z" finished-at="2017-08-17T15:04:01Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="1" started-at="2017-08-17T15:37:44Z" finished-at="2017-08-17T15:37:44Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="Adult()[pri:3, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="Adult" duration-ms="1288" started-at="2017-08-17T15:04:01Z" description="Enter adult value 2" finished-at="2017-08-17T15:04:02Z">
+        <test-method status="PASS" signature="Adult()[pri:3, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="Adult" duration-ms="4843" started-at="2017-08-17T15:37:44Z" description="Enter adult value 2" finished-at="2017-08-17T15:37:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Adult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:04:02Z" finished-at="2017-08-17T15:04:02Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:37:49Z" finished-at="2017-08-17T15:37:49Z">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="Child()[pri:4, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="Child" duration-ms="3063" started-at="2017-08-17T15:04:02Z" description="Enter Child value 1-4" finished-at="2017-08-17T15:04:05Z">
+        <test-method status="PASS" signature="Child()[pri:4, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="Child" duration-ms="1147" started-at="2017-08-17T15:37:49Z" description="Enter Child value 1-4" finished-at="2017-08-17T15:37:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Child -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:04:05Z" finished-at="2017-08-17T15:04:05Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="1" started-at="2017-08-17T15:37:50Z" finished-at="2017-08-17T15:37:50Z">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="DOB()[pri:5, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="DOB" duration-ms="3382" started-at="2017-08-17T15:04:05Z" description="Enter DOB" finished-at="2017-08-17T15:04:08Z">
+        <test-method status="PASS" signature="DOB()[pri:5, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="DOB" duration-ms="3397" started-at="2017-08-17T15:37:50Z" description="Enter DOB" finished-at="2017-08-17T15:37:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DOB -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="1" started-at="2017-08-17T15:04:08Z" finished-at="2017-08-17T15:04:08Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:37:54Z" finished-at="2017-08-17T15:37:54Z">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="EldestMember()[pri:6, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="EldestMember" duration-ms="1130" started-at="2017-08-17T15:04:08Z" description="Select Eldest Member Gender" finished-at="2017-08-17T15:04:09Z">
+        <test-method status="PASS" signature="EldestMember()[pri:6, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="EldestMember" duration-ms="1117" started-at="2017-08-17T15:37:54Z" description="Select Eldest Member Gender" finished-at="2017-08-17T15:37:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EldestMember -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:04:09Z" finished-at="2017-08-17T15:04:09Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:37:55Z" finished-at="2017-08-17T15:37:55Z">
           <params>
             <param index="0">
               <value>
@@ -101,11 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="City()[pri:7, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="City" duration-ms="1923" started-at="2017-08-17T15:04:09Z" description="Select City from list" finished-at="2017-08-17T15:04:11Z">
+        <test-method status="PASS" signature="City()[pri:7, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="City" duration-ms="1576" started-at="2017-08-17T15:37:55Z" description="Select City from list" finished-at="2017-08-17T15:37:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- City -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="2" started-at="2017-08-17T15:04:11Z" finished-at="2017-08-17T15:04:11Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:37:57Z" finished-at="2017-08-17T15:37:57Z">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="GetLiveQuotes()[pri:8, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="GetLiveQuotes" duration-ms="5132" started-at="2017-08-17T15:04:11Z" description="Click Get Live Quotes Button" finished-at="2017-08-17T15:04:17Z">
+        <test-method status="PASS" signature="GetLiveQuotes()[pri:8, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="GetLiveQuotes" duration-ms="5266" started-at="2017-08-17T15:37:57Z" description="Click Get Live Quotes Button" finished-at="2017-08-17T15:38:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetLiveQuotes -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:04:17Z" finished-at="2017-08-17T15:04:17Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="1" started-at="2017-08-17T15:38:02Z" finished-at="2017-08-17T15:38:02Z">
           <params>
             <param index="0">
               <value>
@@ -131,11 +131,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="CustomerPopup()[pri:9, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="CustomerPopup" duration-ms="13149" started-at="2017-08-17T15:04:17Z" description="Fill Customer Name in Customer Popup" finished-at="2017-08-17T15:04:30Z">
+        <test-method status="PASS" signature="CustomerPopup()[pri:9, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="CustomerPopup" duration-ms="13053" started-at="2017-08-17T15:38:02Z" description="Fill Customer Name in Customer Popup" finished-at="2017-08-17T15:38:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerPopup -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:04:30Z" finished-at="2017-08-17T15:04:30Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:38:15Z" finished-at="2017-08-17T15:38:15Z">
           <params>
             <param index="0">
               <value>
@@ -146,11 +146,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="CustomerEmail()[pri:10, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="CustomerEmail" duration-ms="5120" started-at="2017-08-17T15:04:30Z" description="Fill Customer Email in Customer Popup" finished-at="2017-08-17T15:04:35Z">
+        <test-method status="PASS" signature="CustomerEmail()[pri:10, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="CustomerEmail" duration-ms="5027" started-at="2017-08-17T15:38:15Z" description="Fill Customer Email in Customer Popup" finished-at="2017-08-17T15:38:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerEmail -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="1" started-at="2017-08-17T15:04:35Z" finished-at="2017-08-17T15:04:35Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:38:20Z" finished-at="2017-08-17T15:38:20Z">
           <params>
             <param index="0">
               <value>
@@ -161,11 +161,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="CustomerMobno()[pri:11, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="CustomerMobno" duration-ms="6821" started-at="2017-08-17T15:04:35Z" description="Fill Customer Mobile Number in Customer Popup" finished-at="2017-08-17T15:04:42Z">
+        <test-method status="PASS" signature="CustomerMobno()[pri:11, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="CustomerMobno" duration-ms="5132" started-at="2017-08-17T15:38:20Z" description="Fill Customer Mobile Number in Customer Popup" finished-at="2017-08-17T15:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerMobno -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="1" started-at="2017-08-17T15:04:42Z" finished-at="2017-08-17T15:04:42Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:38:25Z" finished-at="2017-08-17T15:38:25Z">
           <params>
             <param index="0">
               <value>
@@ -176,11 +176,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="CustomerProceed()[pri:12, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="CustomerProceed" duration-ms="1005" started-at="2017-08-17T15:04:42Z" description="Click Proceed button on Customer Popup" finished-at="2017-08-17T15:04:43Z">
+        <test-method status="PASS" signature="CustomerProceed()[pri:12, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="CustomerProceed" duration-ms="5105" started-at="2017-08-17T15:38:25Z" description="Click Proceed button on Customer Popup" finished-at="2017-08-17T15:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerProceed -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:04:43Z" finished-at="2017-08-17T15:04:43Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:38:30Z" finished-at="2017-08-17T15:38:30Z">
           <params>
             <param index="0">
               <value>
@@ -191,37 +191,48 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="QuotesBuyNow()[pri:13, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="QuotesBuyNow" duration-ms="1005" started-at="2017-08-17T15:04:43Z" description="Quotes page journey" finished-at="2017-08-17T15:04:44Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+        <test-method status="PASS" signature="QuotesBuyNow()[pri:13, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="QuotesBuyNow" duration-ms="20066" started-at="2017-08-17T15:38:30Z" description="Quotes page journey" finished-at="2017-08-17T15:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuotesBuyNow -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-17T15:38:50Z" finished-at="2017-08-17T15:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QuotesBuyNow status=SUCCESS method=HealthProductJourneyWithExcel.QuotesBuyNow()[pri:13, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="suiteTearDown()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="suiteTearDown" is-config="true" duration-ms="0" started-at="2017-08-17T15:38:50Z" finished-at="2017-08-17T15:38:50Z">
+          <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'EP-CP-102', ip: '192.168.3.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: b18f1861-6d76-4e44-b957-e79e38877340]]>
+              <![CDATA[javax.mail.SendFailedException: Sending failed;
+  nested exception is:
+	class javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: C:\Users\Vijay Kumar\git\product\Product-Journey\test-outputHealthExtentReport.html (The system cannot find the file specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'EP-CP-102', ip: '192.168.3.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: b18f1861-6d76-4e44-b957-e79e38877340
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:773)
-	at healthProduct.HealthProductJourneyWithExcel.QuotesBuyNow(HealthProductJourneyWithExcel.java:284)
+              <![CDATA[java.lang.RuntimeException: javax.mail.SendFailedException: Sending failed;
+  nested exception is:
+	class javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: C:\Users\Vijay Kumar\git\product\Product-Journey\test-outputHealthExtentReport.html (The system cannot find the file specified)
+	at healthProduct.SendMailSSL.execute(SendMailSSL.java:70)
+	at healthProduct.HealthProductJourneyWithExcel.suiteTearDown(HealthProductJourneyWithExcel.java:389)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
 	at org.testng.TestRunner.privateRun(TestRunner.java:774)
 	at org.testng.TestRunner.run(TestRunner.java:624)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
@@ -236,62 +247,26 @@ Session ID: b18f1861-6d76-4e44-b957-e79e38877340
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 27 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 42 more
+Caused by: javax.mail.SendFailedException: Sending failed;
+  nested exception is:
+	class javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: C:\Users\Vijay Kumar\git\product\Product-Journey\test-outputHealthExtentReport.html (The system cannot find the file specified)
+	at javax.mail.Transport.send0(Transport.java:218)
+	at javax.mail.Transport.send(Transport.java:80)
+	at healthProduct.SendMailSSL.execute(SendMailSSL.java:67)
+	... 25 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- QuotesBuyNow -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="getResult" is-config="true" duration-ms="73" started-at="2017-08-17T15:04:44Z" finished-at="2017-08-17T15:04:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=QuotesBuyNow status=FAILURE method=HealthProductJourneyWithExcel.QuotesBuyNow()[pri:13, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="suiteTearDown" is-config="true" duration-ms="2913" started-at="2017-08-17T15:04:44Z" finished-at="2017-08-17T15:04:47Z">
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="tearDown" is-config="true" duration-ms="67" started-at="2017-08-17T15:04:47Z" finished-at="2017-08-17T15:04:47Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@8bd1b6a]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-08-17T15:39:00Z" finished-at="2017-08-17T15:39:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- healthProduct.HealthProductJourneyWithExcel -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
