@@ -55,7 +55,7 @@ public class SendMailSSL
 		   Multipart multipart = new MimeMultipart();
 
 		   messageBodyPart = new MimeBodyPart();
-		   String file = "D:\\BhartiAxaAutomate\\Product-Journey\\test-output\\";
+		   String file = "C:\\Users\\Vijay Kumar\\git\\product\\Product-Journey\\test-output";
 		   String fileName = "HealthExtentReport.html";
 		   DataSource source = new FileDataSource(file + fileName);
 		   messageBodyPart.setDataHandler(new DataHandler(source));
