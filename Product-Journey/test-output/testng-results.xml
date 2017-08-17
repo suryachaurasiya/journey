@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78707" started-at="2017-07-19T06:27:16Z" finished-at="2017-07-19T06:28:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78707" started-at="2017-07-19T06:27:16Z" finished-at="2017-07-19T06:28:35Z">
+      <class name="healthProduct.HealthProductJourneyWithExcel">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="suiteSetUp" is-config="true" duration-ms="4749" started-at="2017-07-19T11:57:16Z" finished-at="2017-07-19T11:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="LaunchWebsite()[pri:1, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="LaunchWebsite" duration-ms="6174" started-at="2017-07-19T11:57:21Z" description="Open Easypolicy Website for health Product Journey" finished-at="2017-07-19T11:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="3" started-at="2017-07-19T11:57:27Z" finished-at="2017-07-19T11:57:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LaunchWebsite status=SUCCESS method=HealthProductJourneyWithExcel.LaunchWebsite()[pri:1, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="FillLoginDetails()[pri:2, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="FillLoginDetails" duration-ms="2754" started-at="2017-07-19T11:57:27Z" description="Click on Health product link " finished-at="2017-07-19T11:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails -->
+        <test-method status="PASS" signature="Adult()[pri:3, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="Adult" duration-ms="1191" started-at="2017-07-19T11:57:30Z" description="Enter adult value 2" finished-at="2017-07-19T11:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="0" started-at="2017-07-19T11:57:30Z" finished-at="2017-07-19T11:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FillLoginDetails status=SUCCESS method=HealthProductJourneyWithExcel.FillLoginDetails()[pri:2, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="1" started-at="2017-07-19T11:57:31Z" finished-at="2017-07-19T11:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Adult status=SUCCESS method=HealthProductJourneyWithExcel.Adult()[pri:3, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Child()[pri:4, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="Child" duration-ms="1120" started-at="2017-07-19T11:57:31Z" description="Enter Child value 1-4" finished-at="2017-07-19T11:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Child -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="0" started-at="2017-07-19T11:57:32Z" finished-at="2017-07-19T11:57:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Child status=SUCCESS method=HealthProductJourneyWithExcel.Child()[pri:4, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="DOB()[pri:5, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="DOB" duration-ms="3413" started-at="2017-07-19T11:57:32Z" description="Enter DOB" finished-at="2017-07-19T11:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DOB -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="0" started-at="2017-07-19T11:57:35Z" finished-at="2017-07-19T11:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DOB status=SUCCESS method=HealthProductJourneyWithExcel.DOB()[pri:5, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="EldestMember()[pri:6, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="EldestMember" duration-ms="1105" started-at="2017-07-19T11:57:35Z" description="Select Eldest Member Gender" finished-at="2017-07-19T11:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EldestMember -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="1" started-at="2017-07-19T11:57:36Z" finished-at="2017-07-19T11:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EldestMember status=SUCCESS method=HealthProductJourneyWithExcel.EldestMember()[pri:6, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="City()[pri:7, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="City" duration-ms="1826" started-at="2017-07-19T11:57:36Z" description="Select City from list" finished-at="2017-07-19T11:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- City -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="1" started-at="2017-07-19T11:57:38Z" finished-at="2017-07-19T11:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=City status=SUCCESS method=HealthProductJourneyWithExcel.City()[pri:7, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="GetLiveQuotes()[pri:8, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="GetLiveQuotes" duration-ms="15489" started-at="2017-07-19T11:57:38Z" description="Click Get Live Quotes Button" finished-at="2017-07-19T11:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLiveQuotes -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="1" started-at="2017-07-19T11:57:54Z" finished-at="2017-07-19T11:57:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetLiveQuotes status=SUCCESS method=HealthProductJourneyWithExcel.GetLiveQuotes()[pri:8, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CustomerPopup()[pri:9, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="CustomerPopup" duration-ms="13167" started-at="2017-07-19T11:57:54Z" description="Fill Customer Name in Customer Popup" finished-at="2017-07-19T11:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerPopup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="1" started-at="2017-07-19T11:58:07Z" finished-at="2017-07-19T11:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomerPopup status=SUCCESS method=HealthProductJourneyWithExcel.CustomerPopup()[pri:9, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CustomerEmail()[pri:10, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="CustomerEmail" duration-ms="5131" started-at="2017-07-19T11:58:07Z" description="Fill Customer Email in Customer Popup" finished-at="2017-07-19T11:58:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerEmail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="1" started-at="2017-07-19T11:58:12Z" finished-at="2017-07-19T11:58:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomerEmail status=SUCCESS method=HealthProductJourneyWithExcel.CustomerEmail()[pri:10, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CustomerMobno()[pri:11, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="CustomerMobno" duration-ms="5347" started-at="2017-07-19T11:58:12Z" description="Fill Customer Mobile Number in Customer Popup" finished-at="2017-07-19T11:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerMobno -->
+        <test-method status="PASS" signature="CustomerProceed()[pri:12, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="CustomerProceed" duration-ms="5087" started-at="2017-07-19T11:58:17Z" description="Click Proceed button on Customer Popup" finished-at="2017-07-19T11:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerProceed -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="0" started-at="2017-07-19T11:58:17Z" finished-at="2017-07-19T11:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomerMobno status=SUCCESS method=HealthProductJourneyWithExcel.CustomerMobno()[pri:11, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="QuotesBuyNow()[pri:13, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="QuotesBuyNow" duration-ms="10298" started-at="2017-07-19T11:58:22Z" description="Quotes page journey" finished-at="2017-07-19T11:58:33Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (1194.566650390625, 354.95001220703125). Other element would receive the click: <section aria-hidden="false" class="mainpop mpop1 overflow-popup wow ng-scope" ng-show="$parent.showleadpopup" ng-class="showleadpopupAnimation" data-wow-duration="0.6s"></section>
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'EP-CP-102', ip: '192.168.3.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7daddff0-c067-4f2f-baec-3ed889bdb414]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1194.566650390625, 354.95001220703125). Other element would receive the click: <section aria-hidden="false" class="mainpop mpop1 overflow-popup wow ng-scope" ng-show="$parent.showleadpopup" ng-class="showleadpopupAnimation" data-wow-duration="0.6s"></section>
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'EP-CP-102', ip: '192.168.3.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7daddff0-c067-4f2f-baec-3ed889bdb414
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at healthProduct.HealthProductJourneyWithExcel.QuotesBuyNow(HealthProductJourneyWithExcel.java:293)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuotesBuyNow -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="0" started-at="2017-07-19T11:58:22Z" finished-at="2017-07-19T11:58:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomerProceed status=SUCCESS method=HealthProductJourneyWithExcel.CustomerProceed()[pri:12, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="getResult" is-config="true" duration-ms="49" started-at="2017-07-19T11:58:33Z" finished-at="2017-07-19T11:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QuotesBuyNow status=FAILURE method=HealthProductJourneyWithExcel.QuotesBuyNow()[pri:13, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="suiteTearDown" is-config="true" duration-ms="1565" started-at="2017-07-19T11:58:33Z" finished-at="2017-07-19T11:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:healthProduct.HealthProductJourneyWithExcel@29ee9faa]" name="tearDown" is-config="true" duration-ms="85" started-at="2017-07-19T11:58:35Z" finished-at="2017-07-19T11:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- healthProduct.HealthProductJourneyWithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
