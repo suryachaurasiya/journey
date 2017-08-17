@@ -58,8 +58,8 @@ public class HealthProductJourneyWithExcel extends ExtentBaseClass {
 			WebElement health = driver.findElement(uimap.getLocator("health_product"));
 			health.click();
 			Thread.sleep(1000);
-			if (driver.getTitle().contains("India")) {
-				test.pass(driver.getTitle() + " contain " + "Health Insurance");
+			if (driver.getTitle().contains("Health Insurance")) {
+				test.pass(driver.getTitle() + " contains " + "Health Insurance");
 			} else
 				test.log(Status.FAIL, driver.getTitle() + " doesn't contain " + "Health Insurance");
 		} catch (Exception e) {
