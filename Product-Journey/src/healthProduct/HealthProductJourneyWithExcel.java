@@ -55,7 +55,7 @@ public class HealthProductJourneyWithExcel extends ExtentBaseClass {
 
 		try {
 			test = extent.createTest("Click on Health Link on top bar", "Health product page should be open with form");
-			WebElement health = driver.findElement(uimap.getLocator("health_product"));
+			WebElement health =driver.findElement(uimap.getLocator("health_product"));
 			health.click();
 			Thread.sleep(1000);
 			if (driver.getTitle().contains("Health Insurance")) {
